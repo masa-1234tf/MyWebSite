@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_portfolio_coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masa-1234tf/MyWebSite.git"
+  },
+  "author": "MASATAKA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masa-1234tf/MyWebSite/issues"
+  },
+  "homepage": "https://github.com/masa-1234tf/MyWebSite#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
