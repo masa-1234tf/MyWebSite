@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: #000;
+    color: #fff;
+}
+body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans JP', "ヒラギノ角ゴ ProN W3", 'ヒラギノ角ゴ W3', "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+h1,
+h2 
+{
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+.border {
+    margin: 0 auto;
+    max-width: 600px;
+    border: 1px solid #fff;
+}
+/*-------------------------------------------
+    Header
+-------------------------------------------*/
+.header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo {
+    margin: 50px auto 15px auto;
+    width: 346px;
+    height: 82px;
+}
+.nav-container {
+    margin: 0 auto;
+    max-width: 600px;
+    background: #000000;
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container .nav-item a {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.nav-container li a:hover {
+    color: #d2474a;
+}
+.globalnav li a:hover{
+    border-bottom: 8px solid #7bae34;
+    color: #7bae34;
+}
+
+
+/*-------------------------------------------
+    About
+-------------------------------------------*/
+/*-------------------------------------------
+    Portfolio
+-------------------------------------------*/
+/*-------------------------------------------
+    Skill
+-------------------------------------------*/
+/*-------------------------------------------
+    Contact
+-------------------------------------------*/
+/*-------------------------------------------
+    Footer
+-------------------------------------------*/
