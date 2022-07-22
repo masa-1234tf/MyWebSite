@@ -20,6 +20,9 @@ h2
 h1 {
     font-size: 40px;
 }
+h2 {
+    padding-bottom: 30px;
+}
 a {
     text-decoration: none;
     color: #fff;
@@ -100,8 +103,26 @@ li {
 .Portfolio {
     padding: 60px;
 }
+.p-text {
+    text-align: center;
+    padding-bottom: 60px;
+}
 .github a img{
     background-color: #fff;
+}
+.Portfolio-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.Portfolio-content {
+    padding-left: 50px;
+    text-align: center;
+}
+.p-item {
+    padding-bottom: 16px;
+}
+.title {
+    padding-bottom: 16px;
 }
 /*-------------------------------------------
     Skill
