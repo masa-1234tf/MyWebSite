@@ -12,13 +12,12 @@ body {
     line-height: 1.8;
     font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans JP', "ヒラギノ角ゴ ProN W3", 'ヒラギノ角ゴ W3', "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 }
-h1,
-h2 
-{
+h1,h2 {
     text-align: center;
 }
 h1 {
     font-size: 40px;
+    text-align: center;
 }
 h2 {
     padding-bottom: 30px;
@@ -107,7 +106,16 @@ li {
     text-align: center;
     padding-bottom: 60px;
 }
+.github-auter {
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.github {
+
+}
 .github a img{
+    text-align: center;
     background-color: #fff;
 }
 .Portfolio-content-wrapper {
@@ -127,9 +135,54 @@ li {
 /*-------------------------------------------
     Skill
 -------------------------------------------*/
+.Skill {
+    padding: 60px;
+}
+.Skill-content-wrapper {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 50px;
+    justify-content: center;
+}
+.slill-card {
+    background-color: rgb(92, 92, 92);
+    padding: 20px;
+    border-radius: 15px;
+}
+.slill-card h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
 /*-------------------------------------------
     Contact
 -------------------------------------------*/
+.form-wrapper {
+    max-width: 500px;
+}
+.cp_iptxt {
+    position: relative;
+    width: 80%;
+    margin: 40px 3%;
+}
+
+.cp_iptxt input[type='text'] {
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: #aaaaaa;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+}
+
+.ef input[type='text']:focus {
+    border-bottom: 2px solid #da3c41;
+    outline: none;
+}
 /*-------------------------------------------
     Footer
 -------------------------------------------*/
