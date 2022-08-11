@@ -50,7 +50,7 @@ li {
 .nav-container {
     margin: 0 auto;
     max-width: 600px;
-    background: #000000;
+
 }
 
 .nav-container ul {
@@ -78,7 +78,45 @@ li {
     border-bottom: 8px solid #7bae34;
     color: #7bae34;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(107, 107, 107);
+}
+.page-top {
+    margin: 0;
+    padding: 0;
+}
 
+.page-top p {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+}
+
+.move-page-top {
+    display: block;
+    background: #D36015;
+    width: 50px;
+    height: 50px;
+
+    color: #fff;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.move-page-top:hover {
+    opacity: 0.85;
+}
 
 /*-------------------------------------------
     About
@@ -95,6 +133,9 @@ li {
 }
 .about-text {
     margin: auto;
+}
+.about-text p {
+    margin-left: 40px;
 }
 /*-------------------------------------------
     Portfolio
@@ -157,7 +198,11 @@ li {
 /*-------------------------------------------
     Contact
 -------------------------------------------*/
+.Contact {
+    text-align: center;
+}
 .form-wrapper {
+    margin: 0 auto;
     max-width: 500px;
 }
 .cp_iptxt {
@@ -173,9 +218,9 @@ li {
     padding: 0.3em;
     transition: 0.3s;
     letter-spacing: 1px;
-    color: #aaaaaa;
+    color: #e0e0e0;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #5b6372;
     background: transparent;
 }
 
@@ -186,3 +231,64 @@ li {
 /*-------------------------------------------
     Footer
 -------------------------------------------*/
+.footer {
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+}
+.footer-menu {
+    border-top: 1px #fff dotted;
+}
+.footer-menu ul {
+    justify-content: center;
+    display: flex;
+}
+.footer-menu ul li {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.footer-menu ul li a:hover {
+    opacity: 0.2;
+}
+.footer p {
+    padding-top: 20px;
+    padding-bottom: 0;
+    border-top: 10px 1px #fff;
+}
+/*-------------------------------------------
+        responsive
+-------------------------------------------*/
+@media only screen and (min-width:600px) {
+
+}
+@media only screen and (max-width:600px) {
+    /*-------------------------------------------
+        About
+    -------------------------------------------*/
+    .About {
+            display: block;
+        }
+        .about-image {
+            width: 100%;
+        }
+        .about-text p {
+            margin-top: 10px;
+        }
+    /*-------------------------------------------
+        Portfolio
+    -------------------------------------------*/
+        .Portfolio-content-wrapper {
+            display: block;
+        }
+        /*-------------------------------------------
+            Skill
+        -------------------------------------------*/
+        .Skill {
+            padding: 30px;
+        }
+        .Skill-content-wrapper {
+            grid-template-columns: repeat(1, 200px);
+            gap: 10px;
+            justify-content: center;
+        }
+}

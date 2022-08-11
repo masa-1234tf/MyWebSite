@@ -22,6 +22,9 @@
                     <li class="nav-item"><a>お問い合わせ</a></li>
                 </ul>
             </nav>
+            <div id="page-top" class="page-top">
+                <p><a id="move-page-top" class="move-page-top">▲</a></p>
+            </div>
         </header>
         <main>
         <!--------------------about area------------------------->
@@ -107,17 +110,46 @@
         <section class="Contact">
             <h2>コンタクト</h2>
             <div class="form-wrapper">
-                <form action="" method="post">
-                    <div class=" cp_iptxt">
-                        <label class="ef"> 
-                            <input type="text" placeholder="お名前">
-                        </label>
-                    </div>
-                </form>
+                <div class="cp_iptxt">
+                    <label class="ef">
+                        <input type="text" placeholder="お名前">
+                    </label>
+                </div>
+                <div class="cp_iptxt">
+                    <input type="text" placeholder="E-Mail">
+                    <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="">
+                    <br>
+                    <label>内容を選択してください</label></br>
+                    <select class="dropdown">
+                    <option>選択してください</option>
+                    <option>お仕事の依頼</option>
+                    <option>このホームページについて</option>
+                    <option>その他</option>
+                    </select>
+                </div>
+                <div>
+                    <label>コメント</label><br />
+                    <textarea cols="35" rows="7" name="comments" id="comments"></textarea>
+                </div>
+                <div>
+                    <input type="submit" class="submit" value="送信する" />
+                </div>
             </div>
         </section>
         </main>
         <!--------------------footer area------------------------->
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">github</a></li>
+                </ul>
+            </div>
+            <p>&copy; Masataka. 2022.</p> 
+        </footer>
     </body>
+    <script src="../public/javascripts/jquery-3.6.0.min.js"></script>
+    <script src="../public/javascripts/main.js"></script>
 </html>
