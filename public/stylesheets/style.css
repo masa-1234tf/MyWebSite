@@ -273,15 +273,19 @@ li {
             margin: 0 auto;
             padding-bottom: 10px;
         }
-    
+    .nav-container .nav-item a {
+        display: block;
+        padding: 20px 30px;
+        text-decoration: none;
+        font-size: 10px;
+        color: #ffffff;
+        border-bottom: 8px solid #fff;
+    }
         .logo {
             margin: 50px auto 15px auto;
             width: 346px;
             height: 82px;
         }
-    .nav-container {
-        display: none;
-    }
     /*-------------------------------------------
         About
     -------------------------------------------*/
