@@ -262,11 +262,32 @@ li {
 
 }
 @media only screen and (max-width:600px) {
+    
+    .border {
+        display: none;
+        }
+    /*-------------------------------------------
+        Header
+    -------------------------------------------*/
+    .header {
+            margin: 0 auto;
+            padding-bottom: 10px;
+        }
+    
+        .logo {
+            margin: 50px auto 15px auto;
+            width: 346px;
+            height: 82px;
+        }
+    .nav-container {
+        display: none;
+    }
     /*-------------------------------------------
         About
     -------------------------------------------*/
     .About {
             display: block;
+            justify-content: center;
         }
         .about-image {
             width: 100%;

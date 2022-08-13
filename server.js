@@ -10,5 +10,6 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
     console.log('server listening. Port:' + port)
+    console.log(`http://localhost:${port}`)
 })
 
